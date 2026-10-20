@@ -1,4 +1,4 @@
-# World Food Facts Analysis
+# Open Food Facts Analysis
 
 An exploratory analysis of an Open Food Facts product dataset, implemented in
 [World_Food_Facts.ipynb](World_Food_Facts.ipynb).
@@ -16,7 +16,7 @@ Use a Python 3.10 environment. The saved notebook records Python 3.8.5;
 APIs used here. These bounds are not a lockfile or an end-to-end reproduction.
 
 ```bash
-git clone https://github.com/kamelch/World_Food_Facts_Analysis.git
+git clone https://github.com/kamelch/open-food-facts-analysis.git
 cd World_Food_Facts_Analysis
 python -m pip install -r requirements.txt
 python -m jupyterlab
@@ -46,3 +46,11 @@ before substituting a current export.
 Saved notebook outputs remain available for review without the source data.
 Changes to the notebook should explain their effect on the analysis and describe
 which cells were rerun. See [CONTRIBUTING.md](CONTRIBUTING.md) for commit conventions.
+
+## Repository purpose and workflow
+
+Exploratory notebook covering product data quality, ingredients, additives, and nutrition-score patterns.
+
+Canonical repository: https://github.com/kamelch/open-food-facts-analysis
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for commit, branch, validation, and generated-file conventions.
