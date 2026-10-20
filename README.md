@@ -17,7 +17,7 @@ APIs used here. These bounds are not a lockfile or an end-to-end reproduction.
 
 ```bash
 git clone https://github.com/kamelch/open-food-facts-analysis.git
-cd World_Food_Facts_Analysis
+cd open-food-facts-analysis
 python -m pip install -r requirements.txt
 python -m jupyterlab
 ```
